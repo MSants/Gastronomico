@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOOD COMPANY</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+  
+    <style>
+      .card-deck {
+        margin: 20px;
+      }
+      .card {
+        background-color: darkslategrey;
+        border-color: grey;
+        margin: 20px;
+        padding: 5px;
+        color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      
+        }
+
+        .card:hover {
+          background-color: grey;
+          zoom: 1;
+        }
+      #footer {
+        background-color:darkslategrey;
+        color: white;
+      }
+    </style>
+
+    </head>
+<body>
+    <!--<div class="announcement">
+        <p>Announcement Here!&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">Full Story ></a></p>
+      </div>-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">FOOD COMPANY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>  
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Quienes Somos?<span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Como Contratar</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
+
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Comida y Catering</a>
+                    <a class="dropdown-item" href="#">Bebida y Cocteleria</a>
+                    <a class="dropdown-item" href="#">Salones y Carpas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Combos</a>
+                </div>
+                </li>
+            </ul>
+            
+
+            <form class="form-inline my-2 my-lg-0">
+              <a id="navbar-static-login" class="btn btn-info btn-rounded btn-sm waves-effect waves-light auth-modal-toggle mr-1" data-toggle="modal" data-auth-modal-tab="sign-up" href="#ventana1" role="button">Log in</a>  
+              <input class="form-control mr-sm2 btn-sm" type="search" placeholder="Buscar" aria-label="Search">
+                <!--<button class="btn btn-sm btn-outline-success ml-2 my-sm-0" type="submit">Buscar</button>
+                <a id="navbar-static-signin" class="text-info align-self-center ml-2 auth-modal-toggle waves-effect waves-light" data-auth-modal-tab="sign-in">Registrarse</a> -->
+
+                <!-- se agrego href y role para redireccionar a la pestaña de loggin -->
+            </form>
+        </div>
+    </nav>
+
+    <!-- Tarjetas -->
+
+    <!--FILA 1-->
+    <div class="card-deck rounded">
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/29250042_2104705023139444_4239862337311342592_n.jpg?_nc_cat=101&_nc_oc=AQlQdp50wpFTIi6XaowsrfPTEEhGB9sU0k5eEAM1kDuIQG7DwhTkk57S2Sm3vuHmFQ0&_nc_ht=scontent.ftuc1-1.fna&oh=2e4a0dfa4a46ddeb4d20868f4b7da159&oe=5E25EDBA" class="card-img-top" alt="Hay Bar">
+        <div class="card-body">
+          <h5 class="card-title">HAY BAR!</h5>
+          <p class="card-text">Cocteleria a Domicilio. Tucuman. Argentina.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/45099857_323130665151395_5915615351936122880_n.jpg?_nc_cat=106&_nc_oc=AQm9T4wlVuyIBbHvKgMB4JpYm0wfiOF6rdj5_L4FmGw6etWT7NOZO9yEg6EDLduJRgs&_nc_ht=scontent.ftuc1-1.fna&oh=53898b44da1ee2c60d0278cadd964bda&oe=5E1A6D57" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">VALDIFOOD</h5>
+          <p class="card-text">Eat and Enjoy. Comidas y Postres a las Brasas.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/70812730_10156689770312615_7601765039275507712_n.jpg?_nc_cat=100&_nc_oc=AQkP6vA4yApNXuIMPI3FSGecyXkLSblniHgnoJdYPyFpYmsX28v7ppQU0CKLLmr47G8&_nc_ht=scontent.ftuc1-1.fna&oh=b06d182768fb6421141c0fd545742655&oe=5E55643A" class="card-img-top" alt="Carpas del Noa">
+        <div class="card-body">
+          <h5 class="card-title">DJ PABLO ROJAS</h5>
+          <p class="card-text">Musica para Eventos y Fiestas. Trabajamos en todo el Norte del pais.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/18671242_1397902363579888_5092997544977885545_n.jpg?_nc_cat=100&_nc_oc=AQlPHSQaEuNXH-wdmszlVa3DkN7VPR_57ub-tFsfJQ39hfTQijiYdhXCKbHBkk8AQqA&_nc_ht=scontent.ftuc1-1.fna&oh=b10f98c6e5c3094a2db41839f9ed5bd3&oe=5E1B0C63" class="card-img-top" alt="Hay Bar">
+        <div class="card-body">
+          <h5 class="card-title">LAS MARIAS</h5>
+          <p class="card-text">Salon de Eventos. Tucuman. Argentina.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--FILA 2-->
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/36591854_10156225451045837_5677508386590031872_n.jpg?_nc_cat=104&_nc_oc=AQlw2c-POnbvO3pGiueqmb3E7eSO4OzjtMhi6OwAPFpOezTbT66aX76Drc4DP9S-218&_nc_ht=scontent.ftuc1-1.fna&oh=807a96a7b0a9ae5a951883217015469e&oe=5E5C6CA7" class="card-img-top" alt="Hay Bar">
+        <div class="card-body">
+          <h5 class="card-title">DJ PERRO</h5>
+          <p class="card-text">Boutique de Dj's.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.0-9/12790960_541613039346415_2530715745434662433_n.jpg?_nc_cat=105&_nc_oc=AQnFg2lpv36osGP2cOBqRfFJ-h0HOoH7wDImSTtlVm2JhgpRfcl2xtImqAxXF-b_1tA&_nc_ht=scontent.ftuc1-2.fna&oh=536aade8bbaa52f5c2185757154ec4ec&oe=5E6293EF" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">JAMES COOK</h5>
+          <p class="card-text">Catering de Primera. Camaraderia Profesional.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.0-9/26991592_1579071922128127_3689742302665681265_n.jpg?_nc_cat=103&_nc_oc=AQmg-7z7Z-y_fHZTqdNpQPUmkUVUt-pL-GvCaSlCJayRRXkUy180eybmK-uXHKcs1oQ&_nc_ht=scontent.ftuc1-2.fna&oh=0a79592a11403b4468621652fa5b6328&oe=5E225C99" class="card-img-top" alt="Carpas del Noa">
+        <div class="card-body">
+          <h5 class="card-title">SUSHIFEEL</h5>
+          <p class="card-text">Sushi para eventos.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+    </div>
+    <!--FILA 3-->
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.0-9/40521516_1965368343529865_3650128521155575808_n.png?_nc_cat=105&_nc_oc=AQnalxtY-SYQgkMkufFWs0whKhivNNL9BS9BqDyNurR0k-QxvkoBSlCqVa6SKWKY60E&_nc_ht=scontent.ftuc1-2.fna&oh=4044457fe9cb1465be2db8debc4a88c7&oe=5E63F895" class="card-img-top" alt="Carpas del Noa">
+        <div class="card-body">
+          <h5 class="card-title">CARPAS DEL NOA</h5>
+          <p class="card-text">Carpas para todo tipo de Eventos. Trabajamos en todo el Norte del pais.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/18199293_1479297615468149_1753603862350996578_n.jpg?_nc_cat=1&_nc_oc=AQn5BLWwkTNhhOIuOxK2dfCZutZfAD5Hx2ZDrYzwX5tb64Fu37WG3x55nfm_n0fX8oo&_nc_ht=scontent.ftuc1-1.fna&oh=e9905f6724cf56addffd3d8b92ea8ebe&oe=5E1B034B" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">LOCOS X EL ASADO</h5>
+          <p class="card-text">Asado de manera profesional para eventos personalizados.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/67212915_338148873744136_5533827050340614144_n.png?_nc_cat=108&_nc_oc=AQmDDaHlgRtGpSIqNUCe35mjrzxLOBOwljMY3yAMFyxKBv-_nAKf4BRbqZqYmbEzmuo&_nc_ht=scontent.ftuc1-1.fna&oh=939db24c97ead28bd80922990992dda3&oe=5E55ED63" class="card-img-top" alt="Carpas del Noa">
+        <div class="card-body">
+          <h5 class="card-title">BAALBECK</h5>
+          <p class="card-text">La mejor comida arabe para todos tus eventos.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.0-9/66431532_2776352889047584_358129856497582080_n.png?_nc_cat=110&_nc_oc=AQl__1S280yL_uKMI_1w8Q73a6nvedzwrIzYgeGDH9yfBg25X4uSVDsbK8xdUkOUDn8&_nc_ht=scontent.ftuc1-2.fna&oh=dd72ac6d87cd10d35956511dc1d0c252&oe=5E263FCC" class="card-img-top" alt="Carpas del Noa">
+        <div class="card-body">
+          <h5 class="card-title">OPEN KIDS</h5>
+          <p class="card-text">Salon de fiestas Infantiles.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!--FILA 3
+    <div class="card-deck">
+      <div class="card">
+        <img src="https://scontent.ftuc1-1.fna.fbcdn.net/v/t1.0-9/36591854_10156225451045837_5677508386590031872_n.jpg?_nc_cat=104&_nc_oc=AQlw2c-POnbvO3pGiueqmb3E7eSO4OzjtMhi6OwAPFpOezTbT66aX76Drc4DP9S-218&_nc_ht=scontent.ftuc1-1.fna&oh=807a96a7b0a9ae5a951883217015469e&oe=5E5C6CA7" class="card-img-top" alt="Hay Bar">
+        <div class="card-body">
+          <h5 class="card-title">DJ PERRO</h5>
+          <p class="card-text">Boutique de Dj's.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.0-9/12790960_541613039346415_2530715745434662433_n.jpg?_nc_cat=105&_nc_oc=AQnFg2lpv36osGP2cOBqRfFJ-h0HOoH7wDImSTtlVm2JhgpRfcl2xtImqAxXF-b_1tA&_nc_ht=scontent.ftuc1-2.fna&oh=536aade8bbaa52f5c2185757154ec4ec&oe=5E6293EF" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">JAMES COOK</h5>
+          <p class="card-text">Catering de Primera. Camaraderia Profesional.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://scontent.ftuc1-2.fna.fbcdn.net/v/t1.0-9/26991592_1579071922128127_3689742302665681265_n.jpg?_nc_cat=103&_nc_oc=AQmg-7z7Z-y_fHZTqdNpQPUmkUVUt-pL-GvCaSlCJayRRXkUy180eybmK-uXHKcs1oQ&_nc_ht=scontent.ftuc1-2.fna&oh=0a79592a11403b4468621652fa5b6328&oe=5E225C99" class="card-img-top" alt="Carpas del Noa">
+        <div class="card-body">
+          <h5 class="card-title">SUSHIFEEL</h5>
+          <p class="card-text">Sushi para eventos.</p>
+          <p class="card-text"><small class="text-muted">Tucuman Argentina.</small></p>
+        </div>
+      </div>
+    </div>
+  -->
+
+    <!-- fin de tarjetas -->
+    
+
+<!-- LOGIN VENTANA EMERGENTE -->
+    <div class="container">
+        <div class="modal fade " id="ventana1">
+            <div class="modal-dialog justify-content-center w-100">
+              <div class="modal-content">
+                
+                  <div class="registro">
+
+                      <div class="row">
+                           <div class="col-sm-6">
+                              <img src="https://image.freepik.com/psd-gratis/bastidor-frutas-bayas-aisladas-sobre-fondo-blanco_88281-1706.jpg" class="rounded w-100 h-100" alt="">
+              
+                           </div>
+                            <div class="col-sm-6">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
+                                <img src="E:\Rolling\proGastronomico\Imagenes/logo1.png" style=" 5rem" alt="">
+                              </div>
+                              <form class="container">
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Nombre</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Apellido</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                </div>
+                                <div class="form-group">
+                                  <label for="exampleInputEmail1">Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                                </div>
+                                <p class="card-text"><small class="text-muted">LOGIN</small></p>
+
+                              </form>
+                                
+
+                              
+                            </div>
+                      </div>
+
+                   </div>
+                
+              </div>
+            </div>
+    
+          </div>
+      </div>
+      
+
+      
+
+
+
+    </div>
+
+
+    <footer id ="footer" class="card-footer ">
+      <div class="column" >
+        <div class="col-sm-3">
+          <h5>Dedicados a la organizacion de eventos</h5>
+
+
+
+         </div>
+        <div class="col-sm-3">
+          <img src="E:\Rolling\proGastronomico\Imagenes/logo.png" style="width: 8rem" alt="">
+      
+          
+         </div>
+        <div class="col-sm-3" >
+          <h3 class="align-items-center">Follow us</h3>
+
+          <img src="E:\Rolling\proGastronomico\Imagenes/instagram.png" style="width: 25px ;height: 25px" alt="">
+          <img src="E:\Rolling\proGastronomico\Imagenes/facebook.png" style="width: 25px ;height: 25px" alt="">
+          <img src="E:\Rolling\proGastronomico\Imagenes/youtube.png" style="width: 25px ;height: 28px" alt="">
+
+
+          
+
+          
+
+        </div>
+      </div>
+
+    </footer>
+<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html> 
