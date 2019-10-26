@@ -1,0 +1,15 @@
+.tarjetas{
+
+    
+    border: 5px solid green;
+
+}
+
+.row >.col-sm-8{
+   
+    background: #8CBFCC;
+}
+
+.carouselExample{
+    width: 70px;
+}

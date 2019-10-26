@@ -1,0 +1,85 @@
+.announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: Arial, sans;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 0.8em;
+  }
+
+  .announcement a {
+    color: #ccc;
+  }
+
+  .announcement a:hover {
+    color: red;
+  }
+
+.registro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #f5f5f5;
+
+}
+.form-group{
+  text-align: center;
+}
+
+#sign{
+  background-color:  #72ADB2;
+}
+.card-text{
+  text-align: center;
+}
+
+.modal-content{
+  border-radius: 25px;
+
+}
+.form-inline{
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+#tipoCliente{
+  border: 8px solid rgb(167, 177, 167);
+
+}
+
+#form.Imag{
+  display: flex;
+
+  border: 2px solid black;
+
+}
+
+.boton{
+  display: flex;
+  justify-content: center;
+
+}
+  .header{
+            
+   background: #e9ebec;
+  }
+
+  .pestañaRe{
+    
+    background: #fff;
+
+  }
+
+  .caja{
+/*     
+    border-radius: 25px;
+    
+   
+   border: 3px solid #eff2f3; */
+   margin: 0px;
+  }

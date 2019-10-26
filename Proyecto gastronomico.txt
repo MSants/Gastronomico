@@ -1,0 +1,10 @@
+1-Obejtivo de la pagina: Unir clientes finales con proveedores (especializados en productos de consumo) para eventos festivos.
+2-En el header incluiremos: direccion en parte susperior izquierda inicio de sesion y registrarse con botones lineales de facebook, mail e instragram (parte superior derecha)
+3-La pagina incluye una barra de navegacion con logo y los botones: Inicio, servicios, sobre nosotros, productos, contacto.
+El boton servicios y productos van a ser desplegables con las categorias que decidamos
+4-Luego incluir un div class main con un slider que pasa automaticamente  y que el usuario tambien lo pueda hacer pasar con items con botones de right y left. Las imagenes que incluye el slider seran de un servicio de los proveedores con el respectivo nombre del mismo.
+5-Incluir otro div con las instrucciones de como registrarse en la pagina, comprar y pagar. Registrarse, Arma tu servicio, Contrata. (pasos finales, medios de pago, medio de contacto con los servicios contrtados).
+6-Luego insetar otro div con 4 imagenes sin espacio entre ellas de eventos en los cuales se brindaron los servicios
+En el footer incluiremos logo e informacipon de contacto 
+
+Agregar "Migas de Pam"
