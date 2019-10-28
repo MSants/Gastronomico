@@ -10,13 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     </head>
 <body>
-    <!-- <div class=" container-fluid d-flex justify-content-end  bg-info h-20 d-inline-block ">
-        
-      <img src="cuchillo/jfif" width="50" height="50" class="img-thumbnail"  alt="">
-        <img src="pimiento/jfif" width="50" height="50" class="img-thumbnail" alt="">
-        <img src="jamon/jfif" width="50" height="50" class="img-thumbnail="">
-      
-      </div> -->
+    
+  
     <nav class="navbar navbar-expand-lg  bg-light sticky-top">
         <a class="navbar-brand" href="index.html">
       <img src="IMG/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
@@ -29,7 +24,7 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item "><a class="nav-link text-dark" href="#">QUIENES SOMOS? <span class="sr-only">(current)</span></a></li>
                 <li class="nav-item"><a class="nav-link text-dark" href="#comocontratar">COMO CONTRATAR</a></li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-dark" href="#"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICIOS</a>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-dark" href="index-cards.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">SERVICIOS</a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Comida y catering</a>
@@ -44,10 +39,10 @@
 
             <form class="form-inline my-2 my-lg-0">
               <a id="navbar-static-login" class="btn btn-info btn-rounded btn-sm waves-effect waves-light auth-modal-toggle mr-1" data-toggle="modal" data-auth-modal-tab="sign-up" href="#ventana1" role="button">Log in</a>
+              
+              <!-- <a id="navbar-static-login" class="btn btn-info btn-rounded btn-sm waves-effect waves-light auth-modal-toggle mr-1" data-toggle="modal" data-auth-modal-tab="sign-up" href="#ventana1" role="button">Log in</a> -->
               <input class="form-control mr-sm2 btn-sm" type="search" placeholder="Buscar" aria-label="Search">
-                <!--<button class="btn btn-sm btn-outline-success ml-2 my-sm-0" type="submit">Buscar</button>
-                <a id="navbar-static-signin" class="text-info align-self-center ml-2 auth-modal-toggle waves-effect waves-light" data-auth-modal-tab="sign-in">Registrarse</a> -->
-                <!-- se agrego href y role para redireccionar a la pestaña de loggin -->
+               
             </form>
  
         </div>
@@ -115,7 +110,50 @@
             </div>
           </div>
         </div>
-          <!-- Footer -->
+
+<!-- VENTANA EMERGENTE -->
+<div class="media-container-row content text-black">
+  <div class="modal fade " id="ventana1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+            <div class="registro">
+               <div class="modal-header">
+                          <img src="IMG/logo1.png" style=" 5rem" alt="">
+                </div>
+                        <form class="container">
+                          <div class="form-group">
+                            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                            <label for="exampleInputEmail1"></label> 
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
+                            <label for="exampleInputEmail1"></label>
+                            <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password">
+                          </div>
+                          <button class="btn btn-lg btn-primary btn-block" id ="sign"type="submit">Sign in</button><br>
+                          <p class="card-text"><small class="text-muted"> <a href="register.html">Registrarte</a>
+                            </small></p>
+
+                        </form>
+                          
+
+                        
+                      </div>
+                </div>
+
+             </div>
+          
+        </div>
+      </div>
+
+    </div>
+</div>
+
+
+
+<!-- FIN DE VENTANA -->
+
+
+<!-- Footer -->
 <footer class="page-footer font-small bg-dark text-white pt-4">
 
   <!-- Footer Elements -->
@@ -127,7 +165,7 @@
         <h5 class="mb-1">Registrate gratis!</h5>
       </li>
       <li class="list-inline-item">
-        <a href="#!" class="btn btn-outline-white btn-rounded">Registrarse!</a>
+        <a href="register.html" class="btn btn-outline-white btn-rounded">Registrarse!</a>
       </li>
     </ul>
     <!-- Call to action -->

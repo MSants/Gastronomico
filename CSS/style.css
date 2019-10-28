@@ -41,8 +41,9 @@
 #sign{
   background-color:  #72ADB2;
 }
-.card-text{
-  text-align: center;
+.caja{
+  border: 2px solid  rgb(209, 206, 206)
+  padding-right:0;
 }
 
 .modal-content{

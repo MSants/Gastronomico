@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FOOD COMPANY</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     
   
     <style>
@@ -35,42 +36,84 @@
 
     </head>
 <body>
-    <!--<div class="announcement">
-        <p>Announcement Here!&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">Full Story ></a></p>
-      </div>-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="#">FOOD COMPANY</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>  
+  <nav class="navbar navbar-expand-lg  bg-light sticky-top">
+    <a class="navbar-brand" href="index.html">
+  <img src="IMG/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>  
+    
+    <div class="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item "><a class="nav-link text-dark" href="#">QUIENES SOMOS? <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link text-dark" href="#comocontratar">COMO CONTRATAR</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle text-dark" href="#"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICIOS</a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Comida y catering</a>
+                <a class="dropdown-item" href="#">Bebidas y cocteleria</a>
+                <a class="dropdown-item" href="#">Salones y carpas</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Combos</a>
+            </div>
+            </li>
+        </ul>
         
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Quienes Somos?<span class="sr-only">(current)</span></a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Como Contratar</a></li>
-                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios</a>
 
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Comida y Catering</a>
-                    <a class="dropdown-item" href="#">Bebida y Cocteleria</a>
-                    <a class="dropdown-item" href="#">Salones y Carpas</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Combos</a>
+        <form class="form-inline my-2 my-lg-0">
+          <a id="navbar-static-login" class="btn btn-info btn-rounded btn-sm waves-effect waves-light auth-modal-toggle mr-1" data-toggle="modal" data-auth-modal-tab="sign-up" href="#ventana1" role="button">Log in</a>
+          <input class="form-control mr-sm2 btn-sm" type="search" placeholder="Buscar" aria-label="Search">
+            <!--<button class="btn btn-sm btn-outline-success ml-2 my-sm-0" type="submit">Buscar</button>
+            <a id="navbar-static-signin" class="text-info align-self-center ml-2 auth-modal-toggle waves-effect waves-light" data-auth-modal-tab="sign-in">Registrarse</a> -->
+            <!-- se agrego href y role para redireccionar a la pestaña de loggin -->
+        </form>
+
+    </div>
+</nav>
+
+<div class="media-container-row content text-black">
+  <div class="modal fade " id="ventana1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          
+            <div class="registro">
+               <div class="modal-header">
+                          <img src="IMG/logo1.png" style=" 5rem" alt="">
                 </div>
-                </li>
-            </ul>
-            
+                        <form class="container">
+                          <div class="form-group">
+                            <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                            <label for="exampleInputEmail1"></label> 
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"> 
+                            <label for="exampleInputEmail1"></label>
+                            <input type="password" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter password">
+                          </div>
+                          <button class="btn btn-lg btn-primary btn-block" id ="sign"type="submit">Sign in</button><br>
+                          <p class="card-text"><small class="text-muted"> <a href="register.html">Registrarte</a>
+                            </small></p>
 
-            <form class="form-inline my-2 my-lg-0">
-              <a id="navbar-static-login" class="btn btn-info btn-rounded btn-sm waves-effect waves-light auth-modal-toggle mr-1" data-toggle="modal" data-auth-modal-tab="sign-up" href="#ventana1" role="button">Log in</a>  
-              <input class="form-control mr-sm2 btn-sm" type="search" placeholder="Buscar" aria-label="Search">
-                <!--<button class="btn btn-sm btn-outline-success ml-2 my-sm-0" type="submit">Buscar</button>
-                <a id="navbar-static-signin" class="text-info align-self-center ml-2 auth-modal-toggle waves-effect waves-light" data-auth-modal-tab="sign-in">Registrarse</a> -->
+                        </form>
+                          
 
-                <!-- se agrego href y role para redireccionar a la pestaña de loggin -->
-            </form>
+                        
+                      </div>
+                </div>
+
+             </div>
+          
         </div>
-    </nav>
+      </div>
+
+    </div>
+</div>
+
+<!-- video -->
+<div class="video text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aHGjA1RJoqo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<!-- Fin de video -->
+
 
     <!-- Tarjetas -->
 
@@ -203,99 +246,39 @@
   -->
 
     <!-- fin de tarjetas -->
+
+             <!-- Footer -->
+<footer class="page-footer font-small bg-dark text-white pt-4">
+
+  <!-- Footer Elements -->
+  <div class="container">
+
+    <!-- Call to action -->
+    <ul class="list-unstyled list-inline text-center py-2">
+      <li class="list-inline-item">
+        <h5 class="mb-1">Registrate gratis!</h5>
+      </li>
+      <li class="list-inline-item">
+        <a href="#!" class="btn btn-outline-white btn-rounded">Registrarse!</a>
+      </li>
+    </ul>
+    <!-- Call to action -->
+
+  </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
     
 
-<!-- LOGIN VENTANA EMERGENTE -->
-    <div class="container">
-        <div class="modal fade " id="ventana1">
-            <div class="modal-dialog justify-content-center w-100">
-              <div class="modal-content">
-                
-                  <div class="registro">
-
-                      <div class="row">
-                           <div class="col-sm-6">
-                              <img src="https://image.freepik.com/psd-gratis/bastidor-frutas-bayas-aisladas-sobre-fondo-blanco_88281-1706.jpg" class="rounded w-100 h-100" alt="">
-              
-                           </div>
-                            <div class="col-sm-6">
-                              <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"> 
-                                <img src="E:\Rolling\proGastronomico\Imagenes/logo1.png" style=" 5rem" alt="">
-                              </div>
-                              <form class="container">
-                                <div class="form-group">
-                                  <label for="exampleInputEmail1">Nombre</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                                </div>
-                                <div class="form-group">
-                                  <label for="exampleInputEmail1">Apellido</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                                </div>
-                                <div class="form-group">
-                                  <label for="exampleInputEmail1">Email address</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                  <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-                                </div>
-                                <p class="card-text"><small class="text-muted">LOGIN</small></p>
-
-                              </form>
-                                
-
-                              
-                            </div>
-                      </div>
-
-                   </div>
-                
-              </div>
-            </div>
-    
-          </div>
-      </div>
-      
-
-      
-
-
-
-    </div>
-
-
-    <footer id ="footer" class="card-footer ">
-      <div class="column" >
-        <div class="col-sm-3">
-          <h5>Dedicados a la organizacion de eventos</h5>
-
-
-
-         </div>
-        <div class="col-sm-3">
-          <img src="E:\Rolling\proGastronomico\Imagenes/logo.png" style="width: 8rem" alt="">
-      
-          
-         </div>
-        <div class="col-sm-3" >
-          <h3 class="align-items-center">Follow us</h3>
-
-          <img src="E:\Rolling\proGastronomico\Imagenes/instagram.png" style="width: 25px ;height: 25px" alt="">
-          <img src="E:\Rolling\proGastronomico\Imagenes/facebook.png" style="width: 25px ;height: 25px" alt="">
-          <img src="E:\Rolling\proGastronomico\Imagenes/youtube.png" style="width: 25px ;height: 28px" alt="">
-
-
-          
-
-          
-
-        </div>
-      </div>
-
-    </footer>
-<!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-
-   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
